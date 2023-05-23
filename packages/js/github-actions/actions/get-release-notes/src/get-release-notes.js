@@ -81,8 +81,6 @@ async function getReleaseNotes() {
 		configPath
 	);
 
-	core.info('Test body');
-	core.info(body);
 
 	const changelog = parseChangelog( body );
 
