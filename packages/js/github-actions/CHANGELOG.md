@@ -1,5 +1,8 @@
 # Changelog
 
+## 2023-05-23 (1.4.2)
+
+
 ## 2023-04-14 (1.4.1)
 ### Tweaked 🔧
 * Replace the deprecated command `set-output` of GitHub Actions. (https://github.com/woocommerce/grow/pull/48)
