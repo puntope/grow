@@ -1,5 +1,10 @@
 # Changelog
 
+## 2023-05-23 (1.5.0)
+### New Features 🎉
+* Add info. (https://github.com/puntope/grow/pull/8)
+* Restore changes. (https://github.com/puntope/grow/pull/10)
+
 ## 2023-04-14 (1.4.1)
 ### Tweaked 🔧
 * Replace the deprecated command `set-output` of GitHub Actions. (https://github.com/woocommerce/grow/pull/48)
