@@ -112,3 +112,7 @@ async function getReleaseNotes() {
 getReleaseNotes()
 	.then( () => core.info( 'Finish getting the release notes.' ) )
 	.catch( handleActionErrors );
+
+function test() {
+	return 'test';
+}
