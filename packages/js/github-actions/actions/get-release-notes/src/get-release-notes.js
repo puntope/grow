@@ -21,7 +21,6 @@ function compositeVersionTag( version ) {
 }
 
 function parseChangelog( notesContent ) {
-	console.log(notesContent);
 	const matched = notesContent.match(
 		/## What's Changed\n([\d\D]+?)(?=\n\n)/i
 	);
@@ -81,6 +80,10 @@ async function getReleaseNotes() {
 		previousTag,
 		configPath
 	);
+
+	core.info('Test body');
+	core.info(body);
+
 	const changelog = parseChangelog( body );
 
 	let notesContent = body;
